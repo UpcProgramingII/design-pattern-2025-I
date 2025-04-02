@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.abstractfactory.example.domain.ui;
 
 import org.springframework.stereotype.Component;
@@ -9,3 +10,16 @@ public class LightButton implements Button{
         return "<button class=\"btn btn-primary\">Buscar</button>";
     }
 }
+=======
+package com.abstractfactory.example.domain.ui;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class LightButton implements Button{
+    @Override
+    public String render() {
+        return "<button class=\"btn btn-primary\">Buscar</button>";
+    }
+}
+>>>>>>> d17009dd148ebfb13060085144d2031ab1f8599d
