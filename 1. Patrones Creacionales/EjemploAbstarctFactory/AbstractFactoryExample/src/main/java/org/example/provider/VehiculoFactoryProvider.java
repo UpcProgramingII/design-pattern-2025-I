@@ -4,9 +4,9 @@ import org.example.factory.VehiculoFactory;
 
 public abstract class VehiculoFactoryProvider {
 
-    private VehiculoFactory factory;
+    private  VehiculoFactory factory;
 
-    public VehiculoFactory getVehiculoFactory(){
+    public VehiculoFactory getProvider(){
         this.factory = this.create();
         return this.factory;
     }
